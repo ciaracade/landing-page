@@ -1,0 +1,163 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', arial;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 3rem 0 3rem;
+    background-color: #1F2537;
+    padding-top: 2rem;
+}
+
+.logo {
+    color: #F9FAF8;
+    font-size: 24px;
+}
+
+.headerlinks {
+    display: flex;
+    justify-content: space-between;
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+h3 {
+    padding: .5rem 2rem .5rem 2rem;
+}
+
+.heromaintext {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: bolder;
+}
+
+.heromaintextp {
+    font-size: 18px;
+    color: #E5E7EB
+}
+
+.signup {
+    display: flex;
+    justify-content: space-around;
+    background-color: #1F2537;
+    padding: 2rem 12rem 2rem 12rem;
+}
+
+.signupinfo {
+    padding: 4rem 0 0 0
+}
+
+.signupsignupbutton {
+    color: #F9FAF8;
+    background-color: #3882F6;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    padding: .5rem 2rem .5rem 2rem;
+    border: 1px solid #3882F6;
+    margin-top: 5%;
+
+}
+
+.signupimageplaceholder {
+    width: 600px;
+    height: 300px;
+    text-align: center;
+    background-color: gray;
+    margin: 2rem;
+    border-radius: 5px;
+}
+
+.information {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: #1F2537;
+    padding: .5rem 2rem .5rem 2rem;
+}
+
+.informationcards {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: .5rem 2rem .5rem 2rem;
+
+}
+
+.informationcard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 2rem 0 2rem;
+    margin: 1rem;
+
+}
+
+.informationcardimageplaceholder {
+    width: 250px;
+    height: 250px;
+    border-radius: 2rem;
+    border: 4px solid#3882F6;
+    object-fit: cover;
+}
+
+.informationquote {
+    padding-top: 1rem;
+}
+
+
+.quote {
+    text-align: center;
+    padding: 6rem 24rem 6rem 24rem;
+    background-color: #E5E7EB;
+}
+
+.quotetext {
+    font-style: italic;
+    font-size: 36px;
+    font-weight: normal;
+}
+
+.author {
+    text-align: end;
+    font-weight: bold;
+}
+
+.advertisement {
+    padding: 5rem;
+    color: #F9FAF8;
+}
+
+.advertisementinnerbox {
+    display: flex;
+    justify-content: space-around;
+    background-color: #3882F6;
+    border-radius: 1rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+
+}
+
+.advertisementbutton {
+    border: 4px solid#F9FAF8;
+    border-radius: 1rem;
+    background-color: transparent;
+    color: #F9FAF8;
+    padding: .5rem 2rem .5rem 2rem;
+    font-weight: bold;
+}
+
+.footer {
+    text-align: center;
+    background-color: #1F2537;
+    color: #E5E7EB;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+button {
+    border-radius: 1rem;
+}
